@@ -1,6 +1,6 @@
 "use client"
 import { Navbar } from '@/Components'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'    
 import Area from '@/pages/Area'
 import Login from '@/pages/Login'
 
