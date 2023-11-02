@@ -1,5 +1,5 @@
 "use client"
-import { Navbar } from '@/Components'
+import { Navbar, Hero} from '@/Components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'    
 import Area from '@/pages/Area'
 import Login from '@/pages/Login'
@@ -14,6 +14,7 @@ export default function Home() {
         <BrowserRouter>
           <Navbar />
           <Routes>
+            <Route path='/' element={<Hero/>}/>
             <Route path='/offenders' element={<Offenders/>}/>
             <Route path='/Area' element={<Area/>}/>
             <Route path='/Login' element={<Login/>}/>
