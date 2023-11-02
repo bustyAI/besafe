@@ -23,9 +23,6 @@ const Navbar:React.FC<{}> = () => {
                     <Link to="/" className='flex'>
                         <span className='nav__text'>Homepage</span>
                     </Link>
-                    <Link to="/Login" className='flex'>
-                        <span className='nav__text'>Login</span>
-                    </Link>
             </nav>
             
         </header>

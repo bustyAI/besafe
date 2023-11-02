@@ -50,3 +50,7 @@ body {
 .purpose__text {
   @apply  text-black text-2xl text-center px-12 border-double border-4 border-gray-400 rounded-md
 }
+
+.off__info {
+  @apply text-black text-xl mr-10
+}

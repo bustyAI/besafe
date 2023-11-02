@@ -2,7 +2,7 @@ export async function getOffenders() {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '23c3d9b9c1msh3fa6092fb9ba274p19c128jsn41b9e780d625',
+            'X-RapidAPI-Key': '0ef3e8b321msh4a1a64c3048b50ap11e8d3jsn6cbcb87e61dd',
             'X-RapidAPI-Host': 'sex-offenders.p.rapidapi.com'
         }
 
