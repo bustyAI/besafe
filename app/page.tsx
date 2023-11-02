@@ -1,5 +1,5 @@
 "use client"
-import { Navbar, Hero} from '@/Components'
+import { Navbar, Hero, Footer} from '@/Components'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'    
 import Area from '@/pages/Area'
 import Login from '@/pages/Login'
@@ -21,7 +21,7 @@ export default function Home() {
           </Routes>
         </BrowserRouter>
       </div>
-
+      <Footer/>
     </main>
   )
 }

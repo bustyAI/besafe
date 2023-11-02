@@ -2,36 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-  background-color: black;
+  background-color: #f9fafb;
 }
 
 .nav__text {
-  @apply text-white font-thin text-3xl py-2 pr-4 pl-2 border-b-2 hover:text-yellow-500 transition transform hover:translate-y-1 duration-300;
+  @apply text-black text-3xl py-2 pr-4 pl-2 border-b-2 hover:text-blue-700 transition transform hover:translate-y-1 duration-300;
 }
 
-.hero__title{
-  @apply text-yellow-400 text-4xl font-extrabold ml-10 my-6
+.hero__title {
+  @apply text-blue-700 text-4xl font-extrabold ml-10 my-6 rounded-md
+}
+
+.hero__title_red {
+  @apply text-gray-800 text-4xl font-extrabold ml-10 my-8 rounded-md
 }
 
 .hero__text {
-  @apply text-white text-5xl text-center font-thin py-6
+  @apply text-black text-2xl text-center py-6 border-y border-8 border-gray-400 rounded-md
 }
 
-.hero__suptitle{
-  @apply text-red-400 text-4xl font-extrabold py-6 text-center
+.hero__suptitle {
+  @apply text-blue-700 text-xl font-extrabold py-6 text-center
+}
+
+.be__text {
+  @apply text-7xl font-extrabold text-blue-700
+}
+
+.safe__text {
+  @apply text-7xl font-extrabold text-gray-900
+}
+
+.about__us {
+  @apply text-lg border-t-4 mt-3 font-semibold text-blue-800
+}
+
+.navbar {
+  @apply max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-10 bg-gray-200 rounded-lg
+}
+
+.purpose__text {
+  @apply  text-black text-2xl text-center px-12 border-double border-4 border-gray-400 rounded-md
 }
