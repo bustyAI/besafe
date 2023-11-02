@@ -19,3 +19,19 @@
 body {
   background-color: black;
 }
+
+.nav__text {
+  @apply text-white font-thin text-3xl py-2 pr-4 pl-2 border-b-2 hover:text-yellow-500 transition transform hover:translate-y-1 duration-300;
+}
+
+.hero__title{
+  @apply text-yellow-400 text-4xl font-extrabold ml-10 my-6
+}
+
+.hero__text {
+  @apply text-white text-5xl text-center font-thin py-6
+}
+
+.hero__suptitle{
+  @apply text-red-400 text-4xl font-extrabold py-6 text-center
+}
