@@ -16,7 +16,7 @@ body {
 }
 
 .hero__title {
-  @apply text-blue-700 text-4xl font-extrabold ml-10 my-6 rounded-md
+  @apply text-blue-700 text-4xl font-extrabold ml-16 my-6 rounded-md
 }
 
 .hero__title_red {
@@ -32,7 +32,7 @@ body {
 }
 
 .be__text {
-  @apply text-7xl font-extrabold text-blue-700
+  @apply text-7xl font-extrabold text-blue-700 
 }
 
 .safe__text {
@@ -40,7 +40,7 @@ body {
 }
 
 .about__us {
-  @apply text-lg border-t-4 mt-3 font-semibold text-blue-800
+  @apply text-3xl border-t-4 mt-3 font-semibold text-blue-800
 }
 
 .navbar {
@@ -48,7 +48,7 @@ body {
 }
 
 .purpose__text {
-  @apply  text-black text-2xl text-center px-12 border-double border-4 border-gray-400 rounded-md
+  @apply  text-black text-2xl text-center px-12 rounded-md
 }
 
 .off__info {

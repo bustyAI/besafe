@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='w-full h-full'>
             <div className='flex flex-col  mx-auto w-1/2 my-10'>
-            <p className='hero__title text-center'>Purpose:</p>
+            <p className='hero__title'>Objective:</p>
                 <p className='purpose__text'>Welcome to <span className=' text-4xl font-extrabold text-blue-700 '>Be</span>
                 <span className='text-4xl font-extrabold text-gray-900 '>Safe</span>, your trusted ally
                     in the mission to keep our communities secure. We understand that your child's
@@ -17,6 +17,14 @@ const Hero = () => {
             </div>
             
         <div className='flex flex-row justify-between items-start w-3/4 mx-auto'>
+
+        <div className='flex flex-1 flex-col mt-12 ml-12 bg-gray-50 items-center'>
+                <Image src="/about-us.png" alt='face' height={600} width={600} />
+                <p className='about__us text-center'>About us</p>
+                <p className='text-2xl text-center mt-3 w-[300px]'>At BeSafe, we believe that awareness is
+                    the key to fostering secure and thriving communities. 
+                </p>
+            </div>
             
             <div className='flex flex-col w-3/5'>
                 
@@ -47,13 +55,7 @@ const Hero = () => {
                     and provided with the resources they need to heal.</p>
 
             </div>
-            <div className='flex flex-1 flex-col mt-12 ml-12 bg-gray-50 items-center'>
-                <Image className='' src="/about-us.png" alt='face' height={600} width={300} />
-                <p className='about__us text-center'>About us</p>
-                <p className='text-base  text-center mt-3 w-[300px]'>At BeSafe, we believe that awareness is
-                    the key to fostering secure and thriving communities. 
-                </p>
-            </div>
+        
         </div>
         </div>
 

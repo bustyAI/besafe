@@ -17,12 +17,12 @@ const Footer = () => {
                 <div className='flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20'>
                     <div className='flex flex-row gap-10 text-base min-w-[170px]'>
                         
-                        <Link href="/">
-                            <Image src='/twitter.png' alt='twitter' height={86} width={86} className=' object-contain' />
+                        <Link href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">
+                            <Image src='/x.png' alt='twitter' height={86} width={86} className=' object-contain' />
                         </Link>
-                        <Link href='/'>
+                        <Link href='https://www.linkedin.com/home'>
                             <Image src='/linkedin.png' alt='twitter' height={86} width={86} className=' object-contain' /></Link>
-                        <Link href='/'>
+                        <Link href='https://www.facebook.com/'>
                             <Image src='/facebook.png' alt='twitter' height={86} width={86} className=' object-contain' /></Link>
 
 
